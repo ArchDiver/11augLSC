@@ -1,0 +1,37 @@
+/* Banner Image with Hero Image and Text */
+body {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142,57,153,0.6)), url(../images/avengers-logo-welcome-the-world-mashems-14.png);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+.header-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
+.nav {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142,57,153,0.6)), url(../images/800px-The_avengers_logo.png);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.form {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142,57,153,0.6)), url(../images/avengers_bw.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
