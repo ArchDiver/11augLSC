@@ -13,37 +13,27 @@ body {
 .header-text {
     display: flex;
     justify-content: center;
-    padding-top: 20%;
     left: 20rem;
     top: 10rem;
     color: white;
 }
-.avenger {
+h1.avenger {
     display: flex;
     justify-content: center;
-    padding-top: 20%;
     left: 20rem;
     top: 10rem;
     color: red;
+    text-shadow: 0px 2px 2px black;
 }
 
 
-nav {
-    height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142,57,153,0.6)), url(../images/800px-The_avengers_logo.png);
-    background-size: cover;
-    background-position: 35% 50%;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    position: relative;
-}
 
-form {
+.form {
     height: 95vh;
     background-image: linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142,57,153,0.6)), url(../images/avengers_bw.jpg);
     background-size: cover;
     background-position: 35% 50%;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     position: relative;
+    color: red;
+    text-shadow: 0px 2px 2px black;
 }
