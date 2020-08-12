@@ -7,6 +7,8 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     position: relative;
+    color: red;
+    text-decoration: seashell;
 }
 .header-text {
     display: flex;
@@ -16,7 +18,17 @@ body {
     top: 10rem;
     color: white;
 }
-.nav {
+.avenger {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: red;
+}
+
+
+nav {
     height: 95vh;
     background-image: linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142,57,153,0.6)), url(../images/800px-The_avengers_logo.png);
     background-size: cover;
@@ -26,7 +38,7 @@ body {
     position: relative;
 }
 
-.form {
+form {
     height: 95vh;
     background-image: linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142,57,153,0.6)), url(../images/avengers_bw.jpg);
     background-size: cover;

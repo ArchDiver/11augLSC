@@ -8,8 +8,8 @@ from avengers.forms import UserInfoForm, BlogPostFrom
 @app.route('/')
 def home():
     name = "Avenger"
-    order_number = 1
-    return render_template("home.html", name=name, order_number=order_number)
+
+    return render_template("home.html", name=name)
 
 
 # register route
